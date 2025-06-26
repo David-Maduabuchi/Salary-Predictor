@@ -63,3 +63,31 @@ A small CSV dataset containing:
 |--------|-------------|
 | `years_of_experience` | Numeric input, e.g., `5` |
 | `salary` | Target label in dollars, e.g., `3500` |
+
+## 🚀 How to Run the Project
+
+Follow these steps to set up and launch the application locally:
+
+### ✅ 1. Clone the Repository
+
+```bash
+git clone https://github.com/david-maduabuchi/salary-prediction-app.git
+cd salary-prediction-app
+
+# For Windows
+python -m venv venv
+venv\Scripts\activate
+
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+
+#intsall requirements
+pip install -r requirements.txt
+
+# Train the model
+python src/train_model.py
+
+# Run the streamlit App to see the interface and view on http://localhost:8501 
+streamlit run app.py
+```
