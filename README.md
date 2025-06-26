@@ -10,18 +10,21 @@ The goal was to transition from traditional notebooks to modular, scalable, and 
 
 ## 📂 Project Structure
 
+```bash
+.
 ├── data/
-│ └── salary.csv
+│   └── salary.csv                  # Raw input data
 ├── notebooks/
-│ └── PricePredictionModel.ipynb
+│   └── PricePredictionModel.ipynb  # Initial exploration & prototyping
 ├── src/
-│ ├── train_model.py
-│ └── predict.py
-├── app.py
-├── requirements.txt
-├── model.pkl # Serialized model
-├── README.md
-└── .gitignore
+│   ├── train_model.py              # Trains and saves the regression model
+│   └── predict.py                  # Loads model and makes predictions
+├── app.py                          # Streamlit dashboard entry point
+├── requirements.txt                # Python dependencies
+├── model.pkl                       # Serialized trained model
+├── README.md                       # Project documentation
+└── .gitignore                      # Ignored files and folders
+
 
 ## 🔍 Problem Statement
 
