@@ -1,0 +1,28 @@
+# 💻 Python
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+*.pkl
+*.joblib
+
+# 📦 Virtual environment
+venv/
+env/
+ENV/
+
+# 🧪 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🧪 VS Code workspace
+.vscode/
+*.code-workspace
+
+# 🔑 Credentials or config (if any)
+*.env
+
+# 📈 Streamlit temporary files
+.streamlit/
+
+# 📄 Mac/OS junk
+.DS_Store
