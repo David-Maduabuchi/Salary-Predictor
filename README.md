@@ -68,26 +68,52 @@ A small CSV dataset containing:
 
 Follow these steps to set up and launch the application locally:
 
+### 1. Clone the Repository  
+
 ```bash
-# 1. Clone the Repository
+
 git clone https://github.com/your-username/salary-prediction-app.git
 cd salary-prediction-app
+```
 
-# 2. Create a Virtual Environment (Optional but Recommended)
+### 2. Create a Virtual Environment (Optional but Recommended)
+
+```bash
 # Windows
 python -m venv venv
 venv\Scripts\activate
+```
+
+```bash
+
 # macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
+```
 
-# 3. Install Dependencies
+### 3. Install Dependencies  
+
+```bash
+
 pip install -r requirements.txt
 
-# 4. Train the Model
-python src/train_model.py
-# This will generate `model.pkl` (your serialized trained model)
+```
 
-# 5. Run the Streamlit App
+### 4. Train the Model  
+
+```bash
+
+python src/train_model.py
+
+# This will generate `model.pkl` (your serialized trained model)
+```
+
+### 5. Run the Streamlit App
+
+```bash
+
 streamlit run app.py
+
 # Visit http://localhost:8501 in your browser to use the interactive dashboard
+
+```
