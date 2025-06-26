@@ -99,7 +99,7 @@ pip install -r requirements.txt
 
 ```
 
-### 4. Train the Model  
+### 4. Train the Model
 
 ```bash
 
