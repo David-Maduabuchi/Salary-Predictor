@@ -4,9 +4,13 @@
 
 ## 🧠 Abstract
 
-This project is a lightweight yet production-ready machine learning pipeline that estimates salary based on years of experience using historical data. It demonstrates the end-to-end process of data cleaning, model training, evaluation, packaging, and deployment via an interactive Streamlit dashboard.
+During my Industrial Training (SIWES) at the Transmission Company of Nigeria (TCN), I identified a recurring challenge within the HR department: incoming engineering staff had no clear insight into their potential earnings based on experience. This lack of transparency often led to unrealistic expectations and confusion during onboarding.
 
-The goal was to transition from traditional notebooks to modular, scalable, and maintainable ML code, while integrating best practices from software engineering and data science.
+After discussing the issue with a friend in HR, I proposed and built a lightweight machine learning model that could estimate salary progression over time using historical data. The project leverages linear regression to predict salary from years of experience, packaged with a clean and interactive Streamlit dashboard.
+
+The solution is currently under review by TCN’s internal dev team for further enhancement and integration. If adopted, it would serve as a practical tool for HR to project salary estimates and improve the onboarding experience for new employees.
+
+This project showcases how machine learning can solve practical, real-world problems outside traditional academic or technical domains, even within organizations like TCN where electrical engineering intersects with human resource needs.
 
 ## 📂 Project Structure
 
