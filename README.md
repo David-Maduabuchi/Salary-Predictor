@@ -24,7 +24,7 @@ The goal was to transition from traditional notebooks to modular, scalable, and 
 ├── model.pkl                       # Serialized trained model
 ├── README.md                       # Project documentation
 └── .gitignore                      # Ignored files and folders
-
+```
 
 ## 🔍 Problem Statement
 
